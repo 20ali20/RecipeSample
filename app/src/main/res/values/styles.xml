@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/squidInk</item>
+        <item name="colorAccent">@color/gojiBerry</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+    </style>
+
+    <!-- Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="size26">
+        <item name="android:textSize">26dp</item>
+    </style>
+
+    <style name="size20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="size14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+    <style name="size16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="size18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+
+    <style name="toolbar" parent="size20">
+
+    </style>
+
+    <style name="recipeDetail_title" parent="size20">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="recipeDetail_body" parent="size18">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="title" parent="size26">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="list_tite" parent="size20">
+        <item name="android:textColor">@color/squidInk</item>
+    </style>
+
+    <style name="list_subtitle" parent="size16">
+        <item name="android:textColor">@color/frosting</item>
+    </style>
+
+    <style name="CustomEditText_error" parent="size14">
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="CustomEditText_txtinput" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">0dp</item>
+        <item name="boxCornerRadiusBottomStart">0dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+        <item name="boxStrokeColor">@drawable/cs_customedittext</item>
+        <item name="android:textColorHint">@drawable/cs_customedittext</item>
+        <item name="hintTextAppearance">@style/size16</item>
+        <item name="errorTextAppearance">@style/CustomEditText_error</item>
+
+    </style>
+
+    <style name="CustomEditText_edittxt" parent="size18">
+    <item name="android:textColor">@color/mortar</item>
+    <item name="android:minHeight">60dp</item>
+    <item name="android:drawablePadding">5dp</item>
+    </style>
+
+    <style name="dialog_animation_slidedownup">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+
+    <style name="dialog_animation_slideupdown">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="button_righticon" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/bs_default</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingLeft">44dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:drawableEnd">@drawable/v_forward</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+</resources>

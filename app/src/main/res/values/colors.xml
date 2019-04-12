@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gojiBerry">#EB4F57</color>
+    <color name="squidInk">#0B2135</color>
+    <color name="frosting">#5EB3B7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="disabled">#888888</color>
+    <color name="divider">#888888</color>
+    <color name="error">#ff0000</color>
+
+    <color name="aquamarine">#64C5AF</color>
+    <color name="aquamarine25opacity">#4064C5af</color>
+    <color name="aquamarine50opacity">#8064C5af</color>
+    <color name="scooter">#2C949A</color>
+    <color name="atoll">#296C78</color>
+    <color name="regal">#24446C</color>
+    <color name="midnight">#191654</color>
+    <color name="paleBlue">#f1f5f9</color>
+    <color name="black">#000000</color>
+    <color name="black75opacity">#80000000</color>
+    <color name="mortar">#555555</color>
+    <color name="mortar50opacity">#50555555</color>
+    <color name="grey">#888888</color>
+    <color name="silver">#aaaaaa</color>
+    <color name="stone">#cccccc</color>
+    <color name="smoke">#f5f5f5</color>
+    <color name="watermelon">#FB646B</color>
+    <color name="saffron">#F7B05B</color>
+    <color name="boulder">#777777</color>
+    <color name="mineshaft">#333333</color>
+
+</resources>
